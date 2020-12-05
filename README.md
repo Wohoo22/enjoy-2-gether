@@ -1,6 +1,7 @@
 # Enjoy2gether
 
 A website for finding groups to share Netflix accounts.
+I used to host this project once on www.enjoy2gether.xyz
 
 # Functions for users:
 * Login, register
