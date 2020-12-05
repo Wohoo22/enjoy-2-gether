@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	background: #76b852; /* fallback for old browsers */
+	background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+	background: -moz-linear-gradient(right, #76b852, #8dc26f);
+	background: -o-linear-gradient(right, #76b852, #8dc26f);
+	background: linear-gradient(to left, #76b852, #8dc26f);
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.label {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+}
+
+/*Groups*/
+/*for tabs and pcs*/
+.group {
+	overflow: hidden;
+	background-color: white;
+	width: 50%;
+	float: left;
+	height: 240px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 600px) {
+	.group {
+		background-color: white;
+		/*for mobile phones*/
+		width: 100%;
+		height: auto;
+		text-align: center;
+		font-family: "Roboto", sans-serif;
+	}
+}
+
+.group .name {
+	color: green;
+	margin: 10px;
+	font-size: 21px;
+}
+
+.group .users {
+	color: gray;
+	font-size: 17px;
+	padding: 10px 4px;
+}
+
+.label {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.button {
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 15px 2px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	width: 100%;
+	background-color:;
+}
+
+.contact {
+	display: inline-block;
+	font-size: 17px;
+	color: white;
+	width: auto;
+	display: block;
+}
+/*for mobile*/
+@media only screen and (max-width: 600px) {
+	.contact {
+		display: inline-block;
+		font-size: 15px;
+		color: white;
+		width: auto;
+		display: block;
+	}
+}
+
+.contact a {
+	padding: 13px;
+	border: 1px solid white;
+	width: auto;
+}
+
+.contact a:hover {
+	background-color: #d9d9d9;
+}
+
+.credit {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	float: left;
+	width: 100%;
+	padding: 20px 10px;
+}

@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+	width: 100%;
+	padding: 2% 0 0;
+	margin: auto;
+}
+
+.warn {
+	color: white;
+	border: 1px solid white;
+	width: auto;
+	padding: 10px;
+}
+
+.warn a {
+	padding: 10px;
+}
+
+.form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	width: auto;
+	margin: 0 auto 10px;
+	padding: 15px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+}
+
+.form a {
+	font-family: "Roboto", sans-serif;
+	border: 0;
+	padding: 20px;
+	font-size: 16px;
+	color: black;
+}
+
+.form b {
+	font-family: "Roboto", sans-serif;
+	border: 0;
+	color: #4d9e5f;
+	font-size: 16px;
+}
+
+.log-out {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.log-out a {
+	border: solid white 2px;
+	padding: 7px;
+	color: white;
+}
+
+.log-out a:hover {
+	background-color: #afccb6;
+}
+
+body {
+	background: #76b852; /* fallback for old browsers */
+	background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+	background: -moz-linear-gradient(right, #76b852, #8DC26F);
+	background: -o-linear-gradient(right, #76b852, #8DC26F);
+	background: linear-gradient(to left, #76b852, #8DC26F);
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.label {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #FFFFFF;
+}

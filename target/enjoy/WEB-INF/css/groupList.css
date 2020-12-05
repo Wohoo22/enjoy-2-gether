@@ -1,0 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	background: #76b852; /* fallback for old browsers */
+	background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+	background: -moz-linear-gradient(right, #76b852, #8dc26f);
+	background: -o-linear-gradient(right, #76b852, #8dc26f);
+	background: linear-gradient(to left, #76b852, #8dc26f);
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.label {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+}
+
+/*Groups*/
+/*for tabs and pcs*/
+.group {
+	overflow: hidden;
+	background-color: white;
+	width: 20%;
+	float: left;
+	height: 150px;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 600px) {
+	.group {
+		overflow: hidden;
+		background-color: white;
+		/*for mobile phones*/
+		width: 33.333333%;
+		float: left;
+		height: 150px;
+		text-align: center;
+		font-family: "Roboto", sans-serif;
+	}
+}
+
+.group .name {
+	color: green;
+	margin: 10px;
+	font-size: 21px;
+}
+
+.group .users {
+	color: gray;
+	font-size: 15px;
+}
+
+.label {
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.button {
+	background-color: #e7e7e7;
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 15px 2px;
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+}
+
+/*Tao nhom*/
+.features {
+	overflow: hidden;
+	background-color:;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+}
+
+.features a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border-color: white;
+	border-style: solid;
+	border-width: 1.5px;
+	font-weight: 700;
+}
+
+/*div outside cua sort*/
+.features sort {
+	text-align: center;
+	padding: 14px 16px;
+	float: right;
+	color: white;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.features a:hover {
+	background-color: #e7e7e7;
+	color: black;
+}
+
+.container {
+	width: 100%;
+	background-color:;
+}
+
+.credit {
+	color: white;
+	font-family: "Roboto", sans-serif;
+	float: left;
+	width: 100%;
+	padding: 20px 10px;
+}
+
+/*drop menu sort*/
+.dropbtn {
+	font-family: "Roboto", sans-serif;
+	background-color: white;
+	color: green;
+	padding: 5px;
+	font-size: 14px;
+	border-style: solid;
+	border-color: #4caf50;
+	border-width: 1px;
+}
+
+.dropdown {
+	width: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	color: green;
+	width: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+	color: green;
+	padding: 4px 4px;
+	width: auto;
+	background-color: white;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+
+.dropdown-content a:hover {
+	background-color: #e7e7e7;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #e7e7e7;
+	color: black;
+	border-color: green;
+}
+
+.loadMore {
+	width: 100%;
+	float: left;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	padding: 45px 0px 0px;
+	font-size: 15px;
+}
+
+.loadMore a {
+	background-color: white;
+	color: black;
+	padding: 2px;
+}
+
+.loadMore a:hover {
+	background-color: #ced3db;
+}
