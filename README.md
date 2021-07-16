@@ -1,2 +1,2 @@
 # Enjoy2gether
-Check out brach "master"
+Check out branch "master"
